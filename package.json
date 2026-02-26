@@ -1,0 +1,28 @@
+{
+  "name": "training-express",
+  "version": "1.0.0",
+  "description": "Backend E-Learning School",
+  "keywords": [
+    "Learning",
+    "Management",
+    "System"
+  ],
+  "license": "ISC",
+  "author": "Rizky Chandra",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "sqlite3": "^5.1.7"
+  }
+}
